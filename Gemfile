@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-gem "rspec"
+# gem "rspec"
 # gem "sinatra"
 
 gem 'hashie'
@@ -8,9 +8,9 @@ gem 'octokit', '~> 2.0'
 gem 'mail', '~> 2.6', '>= 2.6.3'
 gem 'awesome_print', git: 'git@github.com:awesome-print/awesome_print.git'
 
-# group :test do
-#   gem 'rspec'
-# end
+group :test do
+  gem 'rspec'
+end
  
 group :development do
 gem "pry"
